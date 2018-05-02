@@ -1,0 +1,167 @@
+.jumbo{
+	background: linear-gradient(45deg, #00B9C3, #00A2F6);
+	color:white;
+}
+.logohome{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.head-line{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #FF6D4A;
+	color: white;
+}
+.contacto li{
+	text-decoration: none;
+	display: inline;
+}
+.contacto a{
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar{
+	z-index: 110;
+}
+.linea{
+	height: 1px;
+	background-color: #EDF1F4;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+@media (max-width: 480px) {
+  .logohome {
+   	width: 200px;
+  }
+}
+
+h3{
+	font-weight: 100;
+	font-size: 21px;
+}
+
+.bodytext{
+	font-weight: 100;
+}
+.cuadro{
+	margin:0 auto;
+	height: 210px;
+	min-width: 210px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+
+}
+.cuadro > p{
+	color: white;
+	font-weight: bold;
+	margin: 0;
+}
+.cuadro:hover{
+	text-decoration: none;
+}
+.cuadro > span{
+	color: white;
+	font-size: 13px;
+
+}
+.blue{
+	background-color: #4D9CFF;
+}
+.gray{
+	background-color: #323C47;
+}
+.black{
+	background-color: black;
+}
+.rose{
+	background-color: #E4405F;
+}
+.social-size{
+	width: 70px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+span{
+	margin: 0;
+}
+
+@media (min-width: 992px) {
+
+  }
+@media (min-width: 960px) {
+
+  .project {
+    flex: 1 150px;
+  }
+  .project:hover {
+	transform: scale(1.1);
+  }
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform .3s;
+}
+.link a{
+	text-decoration: none;
+}
+footer{
+	background-color: #607d8b;
+	margin-bottom: -10px;
+	color: white;
+	text-align: center;
+}
+.contenido-footer{
+	padding: 20px;
+}
+.contenido-footer a{
+	color: white;
+	text-decoration: underline;
+}
+.love {
+	color: red;
+	font-size: 20px;
+
+}
+.listado{
+	background-color: #ff6d4b;
+	margin-top:10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.caja-formulario{
+	text-align: center;
+	margin:0 auto;
+	background-color: white;
+	border-radius: 8px;
+	min-height: 220px;
+	max-width: 570px;
+	padding: 25px;
+}
+.caja-formulario p{
+	font-size: 19px;
+	color: #323c47;
+}
+.caja-formulario span{
+	font-weight: 100;
+	font-size: 15px;
+}
+@media (min-width: 480px) {
+	.caja-formulario{
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+  }
