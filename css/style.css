@@ -1,3 +1,7 @@
+*{
+	font-family: 'Open Sans', sans-serif!important;
+	margin: 0;
+}
 .jumbo{
 	background: linear-gradient(45deg, #00B9C3, #00A2F6);
 	color:white;
@@ -165,3 +169,201 @@ footer{
 		padding-left: 40px;
 	}
   }
+
+/* Propiedades del about us */
+.presentacion{
+	padding-bottom: 80px;
+}
+.p-style{
+    padding: 5px;
+    max-width: 800px;
+    text-align: justify;
+    text-indent: 2.5em;
+}
+.p{
+	font-weight: 300;
+	font-size: 17px;
+	margin: 0;
+	color:#989898;
+}
+.linea{
+	background-color: #f3f7fa;
+	height: 1px;
+	width: 100%
+}
+
+
+/* linea del titulo naranza */
+.h4{
+	font-size: 30px !important;
+	color:#323c47!important;
+	font-weight: 300 !important;
+}
+.naranja{
+	height: 4px;
+	width: 100px;
+	background-color: #ff6d4b;
+}
+
+/* Niveles de experiencia */
+.barra{
+	padding-top: 30px;
+	width: 100%;
+	height: 60px;
+
+}
+.separacion{
+	margin-top: 10px;
+}
+.separacion2{
+	margin-top: 20px;
+}
+.barra p{
+	margin: 0;
+	font-weight: 300;
+	font-size: 25px;
+	color:gray;
+}
+
+.progreso{
+	width: 100%;
+	height: 15px;
+	background-color:#e2e8ed;
+	border-radius: 5px;
+	position: relative;
+}
+.barra-progreso{
+	height: 15px;
+	border-radius: 5px;
+}
+
+/* defino los porcientos de conocimiento */
+.noventa{
+	width: 90%;
+}
+.nuevetres{
+	width: 93%;
+}
+.cuarenta{
+	width: 40%;
+}
+.ochentaycinco{
+	width: 85%;
+}
+.cincuenta{
+	width: 50%;
+}
+/* defino los colores de los conocimientos */
+.azul{
+	background: -webkit-linear-gradient(left,#0ed8ce, #0ab4e8);
+}
+.rojo{
+	background-color: #fd1758;
+}
+.verde{
+	background: -webkit-linear-gradient(left,#f9ed32, #a6e510);
+}
+.naranja{
+	background: -webkit-linear-gradient(left,#fbb040, #ff6d4b);
+}
+.violeta{
+	background: -webkit-linear-gradient(left,#d5008c, #624096);
+}
+
+.punto{
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-top: -8px;
+	margin-right: -5px;
+	background-color: #f3f7fa;
+	border-radius: 100%;
+}
+.punto-centro{
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	margin-left:7px;
+	margin-top: 7px;
+}
+
+/* numero del % de cada bara */
+.porciento{
+	height: 25px;
+	width: 40px;
+	border-radius: 5px;
+	background-color:#f3f7fa;
+	float: right;
+	margin-top: -40px;
+	margin-right: -10px;
+	position: relative;
+
+}
+.porciento p{
+	font-size: 13px;
+	margin-top: 3px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++ RESPONSIVE+++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Telefonos */
+
+@media (max-width: 564px) {
+
+.p-style{
+    width: 100%;
+
+}
+.linea-nombre{
+	width: 90%;
+}
+.separacion-r{
+	margin-top: 20px;
+}
+.porciento-r{
+	height: 25px;
+	width: 40px;
+	border-radius: 5px;
+	background-color:#f3f7fa;
+	float: right;
+	margin-top: -6px;
+	margin-right: -50px;
+	position: relative;
+
+}
+.presentacion{
+	padding-top: 40px;
+
+}
+}
+
+
+/* Tablet */
+@media (max-width: 991px) {
+
+.p-style{
+    max-width: 100%;
+    
+}
+
+.menu-r{
+	margin: 0 auto;
+
+}
+.separacion-r{
+	margin-top: 20px;
+}
+.link-p{
+	color: black;
+
+}
+/* coloco colores del menu bottom */
+.hello{
+	border-bottom-color: #ffd011;
+}
+}
+
+.redes span{
+	padding: 5px;
+}

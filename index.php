@@ -1,32 +1,13 @@
 <?php include('include/head.php');?>
 
-<body>
-<main role="main">
-<!-- COMIENZO DEL HEADER -->
-      <div class="head-line">
-        <div class="container">
-          <div class="contacto">
-            <li><i class="fas fa-phone-square"></i> <a href="tel:9395799929">939-579-9929</a></li>
-            <li> | </li>
-            <li><i class="fas fa-envelope-square"></i> <a href="mailto:info@procreativo">info@procreativo.com</a></li>
-          </div>
-        </div>
-      </div>
-    	<div class="container">
-    		<div class="text-center">
-    			<img class="logohome" src="img/logo.png">
-        </div>
-      </div>
-<!-- FIN DEL HEADER -->
-
       <div class="jumbotron jumbo text-center">
         <div class="container">
           <h1 class="display-3">Anibal Bonilla</h1>
           <p class="bodytext">Freelance Graphic Designer &amp; Full Stack Developer</p>
-          <p><a class="btn btn-primary btn-sm" href="docs\resume.pdf" role="button" target="_blank ">Resume</a></p>
+          <p><a class="btn btn-primary btn-sm" href="anibalbonilla.php" role="button" >Quien Soy</a></p>
         </div>
       </div>
-
+      <main role="main">
       <div class="container">
         <div class="row">
             <div class="col-md-3 text-center ">
@@ -57,7 +38,7 @@
         <div class="linea"></div>
         <div class="container link">
           <div class="row">
-              <div class="col-md-6 col-lg-3 ">
+              <div class="redes col-md-6 col-lg-3 ">
                 <a href="http://www.behance.net/procreativo" target="_blank">
                 <div class="cuadro blue text-center project">
                   <img class="social-size" src="img/be.svg">
@@ -66,7 +47,7 @@
                 </div>
                 </a>
               </div>
-              <div class="col-md-6 col-lg-3">
+              <div class="redes col-md-6 col-lg-3">
               <a href="https://codepen.io/anibalbonilla" target="_blank">
                 <div class="cuadro black text-center project">
                   <img class="social-size" src="img/code.svg">
@@ -75,7 +56,7 @@
                 </div>
               </a>
               </div>
-              <div class="col-md-6 col-lg-3">
+              <div class="redes col-md-6 col-lg-3">
               <a href="https://github.com/procreativo" target="_blank">
                 <div class="cuadro gray text-center project">
                   <img class="social-size" src="img/git.svg">
@@ -84,7 +65,7 @@
                 </div>
               </a>
               </div>
-              <div class="col-md-6 col-lg-3 ">
+              <div class="redes col-md-6 col-lg-3 ">
                 <a href="https://www.instagram.com/procreativo/" target="_blank">
                   <div class="cuadro rose text-center project">
                     <img class="social-size" src="img/insta.svg">
@@ -151,11 +132,6 @@ de lo increíble que es mi trabajo.</span>
   </div>
 </div>
 <?php include('include/footer.php');?>
-
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.js"></script>
-
 
 </body>
 </html>
