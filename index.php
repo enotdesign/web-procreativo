@@ -48,7 +48,7 @@
                 </a>
               </div>
               <div class="redes col-md-6 col-lg-3">
-              <a href="https://codepen.io/anibalbonilla" target="_blank">
+              <a href="https://codepen.io/procreativo" target="_blank">
                 <div class="cuadro black text-center project">
                   <img class="social-size" src="img/code.svg">
                   <p>CodePen</p>
@@ -132,6 +132,6 @@ de lo increíble que es mi trabajo.</span>
   </div>
 </div>
 <?php include('include/footer.php');?>
-
+<?php include('include/analytics.php'); ?>
 </body>
 </html>
