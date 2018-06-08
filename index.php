@@ -4,7 +4,7 @@
         <div class="container">
           <h1 class="display-3">Anibal Bonilla</h1>
           <p class="bodytext">Freelance Graphic Designer &amp; Full Stack Developer</p>
-          <p><a class="btn btn-primary btn-sm" href="anibalbonilla.php" role="button" >Quien Soy</a></p>
+          <p><a class="btn btn-primary btn-sm" href="anibalbonilla" role="button" >Quien Soy</a></p>
         </div>
       </div>
       <main role="main">
