@@ -83,6 +83,9 @@ h3{
 .rose{
 	background-color: #E4405F;
 }
+.bluefacebook{
+	background-color: #3b5998;
+}
 .social-size{
 	width: 70px;
 	padding-top: 40px;
@@ -122,6 +125,7 @@ span{
 	text-decoration: none;
 }
 footer{
+	margin-top: 20px;
 	background-color: #607d8b;
 	margin-bottom: -10px;
 	color: white;
@@ -366,4 +370,28 @@ footer{
 
 .redes span{
 	padding: 5px;
+}
+
+
+/* ---------------------------------- INSTAGRAM FEED STYLE ---------------------------------- */
+.instablog{
+	background-color: #E4405F;
+	padding: 10px;
+	color: white;
+
+}
+.tituloinsta{
+	font-size: 25px;
+	margin: 0;
+}
+.textoinsta{
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0;
+
+
+}
+.textoinsta a{
+	color: white;
+	text-decoration: underline;
 }

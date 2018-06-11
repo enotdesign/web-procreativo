@@ -66,17 +66,17 @@
               </a>
               </div>
               <div class="redes col-md-6 col-lg-3 ">
-                <a href="https://www.instagram.com/procreativo/" target="_blank">
-                  <div class="cuadro rose text-center project">
-                    <img class="social-size" src="img/insta.svg">
-                    <p>Instagram Blog</p>
-                    <span>Sigue de cerca mis procesos de trabajo.</span>
+                <a href="https://www.facebook.com/Procreativopr" target="_blank">
+                  <div class="cuadro bluefacebook text-center project">
+                    <img class="social-size" src="img/facebook.svg">
+                    <p>Facebook</p>
+                    <span>Sigue de cerca mis últimas publicaciones.</span>
                   </div>
                 </a>
               </div>
             </div>
 
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -101,9 +101,27 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
+
+
+        <div class="instablog text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                
+                  <p class="tituloinsta">Instagram Blog</p>
+                  <p class="textoinsta">¿Tienes Instagram? ¡Mira mis últimas fotos!</p>
+                  <p class="textoinsta">Sigueme: <a href="https://www.instagram.com/procreativo/" target="_blank">@procreativo</a></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="container"><div id="instafeed" class="row"></div></div>
+        
 </main>
 <!--
 <div class="listado">
